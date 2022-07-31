@@ -1,0 +1,91 @@
+/** CONFIGURAÇÕES PADRÕES **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body, html {
+    font: 16px 'Roboto CondenseD', sans-serif;
+    margin: 0;
+    color: #777;
+    height: 100%;
+}
+
+
+.conteudo {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 50px 80px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p { 
+    margin-bottom: 20px;
+}
+
+
+
+/** EFEITO PARALLAX **/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa1 {
+    background-image: url(../imagens/galaxy.jpg);
+}
+
+.caixa2 {
+    background-image: url(../imagens/earth.jpg);
+}
+
+.caixa3 {
+    background-image: url(../imagens/moon2.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/mars.jpg);
+}
+
+.caixa5 {
+    background-image: url(../imagens/saturn.jpg);
+}
+
+.caixa6 {
+    background-image: url(../imagens/jupter.jpg);
+}
+
+.caixa7 {
+    background-image: url(../imagens/neptune.jpg);
+}
+
+.caixa8 {
+    background-image: url(../imagens/uranus.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #ffffff;
+    background-color: #090909dd;
+    padding: 30px;
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
